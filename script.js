@@ -129,7 +129,7 @@ function selectAnswer(e){
 
 function showScore(){
   resetstate();
-  questionele.innerHTML=`you Score ${score} out of ${questions.length}!`;
+  questionele.innerHTML=`you Scored ${score} out of ${questions.length}!`;
   nextbtn.innerHTML="play agian";
   nextbtn.style.display="block"
 }
